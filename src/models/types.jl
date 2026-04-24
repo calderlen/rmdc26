@@ -31,11 +31,7 @@ This file hosts the abstract types. The concrete subtypes are defined in the rel
 - Magnification:
 	- method for computing magnification
 	- concrete subtypes (defined in magnification.jl):
-		1. PointLensAnalytic
-		2. BinaryLensRootSolver
-		3. TripleLensRootSolver
-		4. ContourIntegration
-		5. RayShooting
+
 =#
 
 # physics
@@ -44,7 +40,7 @@ abstract type SourceModel end
 abstract type Trajectory end
 abstract type LensMotion end
 # observation
-abstract type Photometry end
+abstract type FluxModel end
 # computation
 abstract type Magnification end
 
@@ -60,7 +56,7 @@ struct MicrolensEvent{L<:LensGeometry, S<:SourceModel, T<:Trajectory, M<:LensMot
 	lens_motion::M
 end
 
-struct ObservedMicrolensModel{E<:MicrolensEvent, P<:Photometry}<:MicrolensModel
+struct ObservedMicrolensModel{E<:MicrolensEvent, F<:FluxModel}<:MicrolensModel
     event::E
-    photometry::P
+    flux_model::F
 end
