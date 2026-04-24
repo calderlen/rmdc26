@@ -1,0 +1,13 @@
+# data and results
+input/
+output/
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+.env
+
+# OS/editor stuff
+.DS_Store
+*.swp
