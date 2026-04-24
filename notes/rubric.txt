@@ -1,0 +1,48 @@
+Participants were presented W149-, Z087-, and K213-filter lightcurves for each of ~2000 targets, simulated to mimic the observations produced by the Roman Galactic Bulge  survey. The datasets included single-lens events (including lensing by both stars and free-floating planets) and binary-lens microlensing events generated with both stellar and  planetary mass ratios. No truly 'flat' or non-varying lightcurves were included. The parameters of the microlensing events were generated from a realistic galactic model and so span the full range of signal-to-noise and parameter values. Binary lens models included circular orbital motion.
+
+
+The challenge was broken up in to two tiers, with vastly different content in term of the complexity of event models, but including similar total numbers of events. The tiers were:										
+										
+Beginner										
+This tier was meant for those new to the field and particularly microlensing modelling and event calssification, and including events of limited complexity.										
+										
+Experience										
+This tier was deisgned to present the paticipants with data as close as possible to that which would be produced by the Nancy Grace Roman Space Telescope, AKA Roman, and available on MAST during the Roman project. It was intended to be challenging in both complexity and computation tractability.										
+
+True content of the Simulated Data B/E												
+												
+	CVs	0		Binary star/star	?		Binary star/planet	?		Single star	?	
+	Triple circumbinary planet	?		Triple star/planet/moon	?		Triple circumstellar planet	?		Single FFP	?	
+
+
+Goals for Participants												
+												
+	1) Classify all targets											
+	2) Fit appropriate models to the microlensing events, and tabulate the parameters derived in each case, [optionally] including derived physical parameters											
+	3) Describe the approach taken to modeling, the software and hardware used, and in particular any innovations in modeling or classification made in response to the challenge											
+	4) [Optional] Provide plotted output for each model and posterior samples											
+												
+
+Accuracy in Parameters of the Fitted Model										
+You will recieve summary statistic and individual event/model details for all events analyzed by each team and comparative information about how accurate their solutions are. Teams may present multiple solutions for an events and these have been weighted by their relative probability to generate overall accuracy statistics. When allocating points for this category, you will recieve these summary statistics for each type of event and should make a qualitative assesment, relative to other teams, when assigning your points.										
+										
+Number of Events Modelled										
+You will recieve summaries statistics of the number of events modelled by each team in each category. When allocating points for this category you should hollistically weigh these numbers by their relative modelling complexity										
+										
+Computational Efficiency										
+You will recieve summary statistics about the wall time and CPU time spent modelling these events and the hardware used. It has be recommended that participants perform their analysis on the nexus, creating more comparable cumptutation efficiency statistics, however this was not a requirement. When allocating scores for this category, you should consider not only the modelling efficieny, but also any information regarding anomaly detection and categorization efficiency, and how much of that compute time was spent collecting posteriors vs actively finding solutions.										
+										
+Innovation										
+When scoring this section you should consider whether the team attempted to bring new an innovative processes into their analysis. You should consider whether these innovations helped to address open questions or modelling pain points in microlensing. You should consider this score relative to the other teams who participated in the data challenge.										
+										
+Broadening the Field										
+You should use this category to credit any teams who have demonstrated an effort to broaden the field by including members who are new to microlensing or by creating products that increase the accessability of the field.										
+										
+The numerical parameters for each fitted model should be compared with the true parameters for each microlensing event, bearing in mind the multiple degeneracies suffered by microlensing models (note no model fit was required for other types of variable lightcurve). The parameters t0, tE, u0, (fS,fB)λ, s, q, and α were indicated to participants as being particularly important as are normally reliably fitted in real data whereas others (e.g. ρ) may not be.										
+All participants were requested to provide information on the time taken to model each target, so that some comparison of efficiency between different entries can made. However, since participants were free to use their own computing facilities for the challenge for logistical reasons, a qualitative evaluation should be made where the statistics on time taken should be considered along side the descriptive information provided regarding the hardware used, and the number of team members required to complete the task.										
+Criteria 4 and 5 reflect the wider goals of this data challenge, which were to stimulate research into the challenges of modeling microlensing events and to encourage new researchers to join the field. The descriptive information required with each entry was designed to give participants the opportunity to indicate any new developments made, students trains etc.										
+
+For each team, please assign a numerical value between 0 (poor) and 5 (excellent) for each of the 4 criteria specified above. Decimal grades are acceptable.										
+These grades will be reviewed during the panel telecon, where you will have an opportunity to revise them following discussion if you wish.  The teams will be ranked separately for each criterion by summing the grades from all panel members.										
+In addition to the numerical grades, each team should receive a short (~paragraph) written evaluation of their entry, explaining the grades assigned, and providing constructive feedback on the particular strengths and weaknesses of their approach.										
+Please share your grades and notes on each team, using the link provided, at least one day before the panel.										
