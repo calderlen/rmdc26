@@ -1,0 +1,21 @@
+name = "RMDC26"
+uuid = "78264a85-c984-4ee7-9fe8-6e21e4804e87"
+authors = ["Calder Lenhart", "Salim Karimov"]
+
+[deps]
+CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+Glob = "c27321d9-0574-5035-807b-f59d2c89b15c"
+Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
+ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
+PythonCall = "6099a3de-0909-46bc-b1f4-468b9a2dfc0d"
+StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
+
+[compat]
+CSV = "0.10.16"
+DataFrames = "1.8.2"
+Glob = "1.4.0"
+Plots = "1.41.6"
+ProgressMeter = "1.11.0"
+PythonCall = "0.9.31"
+StatsBase = "0.34.10"
