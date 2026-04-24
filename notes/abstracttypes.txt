@@ -1,0 +1,48 @@
+- lensgeometry
+    - p 
+
+- source multiplicity
+    - single source
+    - binary source
+    - multiple source
+
+- surface brightness model
+    - point source
+    - uniform disk
+    - linear limb darkening
+    - quadratic limb darkening
+
+- trajectory model
+    - rectilinear trajectory
+    - parallax model
+        - no parallax
+        - annual parallax
+        - satellite parallax
+        - terrestrial parallax
+        - full observer ephemeris parallax
+    - source orbital motion
+        - noxallarap
+        - circularxallarap
+        - keplerianxallarap
+    
+- observer model
+    - geocentric observer
+    - earth observer
+    - spacecraft observer
+    - multi observer
+
+
+- lensmotionmodel
+    - static lens motion
+    - linearlized lens motion
+    - circular lens orbit
+    - keplerian lens orbit
+
+- photometric model
+    - single band flux model
+    - multi band flux model
+    - blended flux model
+    - multi dataset flux model
+    - dfference imaging flux model
+
+

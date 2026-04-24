@@ -49,14 +49,20 @@ abstract type MicrolensModel end
 
 
 # this struct is the parent abstract type for the physical setup of the lensing model -- it's a subtype of MicrolensModel
-struct MicrolensEvent{L<:LensGeometry, S<:SourceModel, T<:Trajectory, M<:LensMotion}<:MicrolensModel
+struct MicrolensEvent{
+	L<:LensGeometry, 
+	S<:SourceModel, 
+	T<:Trajectory, 
+	M<:LensMotion}<:MicrolensModel
 	lens::L
 	source::S
 	trajectory::T
 	lens_motion::M
 end
 
-struct ObservedMicrolensModel{E<:MicrolensEvent, F<:FluxModel}<:MicrolensModel
+struct ObservedMicrolensModel{
+	E<:MicrolensEvent, 
+	F<:FluxModel}<:MicrolensModel
     event::E
     flux_model::F
 end
